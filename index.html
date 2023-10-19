@@ -11,23 +11,159 @@
   <!-- Set the screens default zoom / scale to 1 -->
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <!-- Specifies the document mode for Internet Explorer -->
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #e6e8ef;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
 
-  <!-- We are using a CSS Reset file to standardize browser default css -->
-  <link rel="stylesheet" href="./reset.css" />
+    header {
+      background-color: #007bff;
+      color: #fff;
+      padding: 1rem;
+      text-align: center;
+    }
 
-  <!-- This is where all of our awesome CSS code goes -->
-  <link rel="stylesheet" href="./style.css" />
+    header div {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav li {
+      margin: 0 10px;
+    }
+
+    main {
+      padding: 2rem;
+    }
+
+    section {
+      margin-bottom: 2rem;
+    }
+
+    h1, h2, h3 {
+      color: #007bff;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    section#contact {
+      background-color: #f9f9f9;
+      padding: 1rem;
+      border-radius: 5px;
+    }
+
+    section#cta {
+      background-color: #023047;
+      color: #fff;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    section#cta h2 {
+      margin-bottom: 1rem;
+    }
+
+    footer {
+      background-color: #7f92a7;
+      color: #fff;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    footer div {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    footer img {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+    }
+
+    footer nav ul {
+      display: flex;
+      justify-content: center;
+    }
+
+    footer nav li {
+      margin: 0 10px;
+    }
+
+    footer p {
+      margin: 0;
+    }
+  </style>
 </head>
 
 <body>
-  <!--
+  <header>
+      <h1>My Online Resume</h1>
+    </div>
 
-    YOU HAVE TO MODIFY THE HTML TO BUILD YOUR AWESOME PAGE
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#job-life">Job Life</a></li>
+        <li><a href="#logo">Logo</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-  -->
-  <h1>Assignment 02</h1>
-</body>
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>My name is Oghenetega Tebite, and I am a motivated and enthusiastic software developer with a strong interest in problem-solving. Oghenetega is dedicated to pushing the frontiers of technology and has a track record of producing efficient and creative solutions.</p>
+    </section>
+
+    <section id="experience">
+      <h2>Experience</h2>
+      <p>For five years, I worked as a devoted software engineer, contributing to the creation of creative solutions in a collaborative team. Expertise in coding, problem-solving, and effective project delivery is required to ensure the success of high-impact software efforts.</p>
+    </section>
+
+    <section id="job-life">
+      <h2>Job Life</h2>
+      <p>My job as a software engineer allows me to constantly participate in creative problem-solving, handle complicated issues, and contribute to the creation of cutting-edge solutions. The field's dynamic nature keeps me inspired and passionate about my job.</p>
+
+      <section id="about">
+        <h2>Logo</h2>
+        <p>This is the logo I use for all my projects.</p>
+        <img src="logo.png" >
+      </section>
+
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Feel free to get in touch with me using the contact information below.</p>
+        <p>Email: <a href="tenitega488@gmail.com">tenitega488@gmail.com</a></p>
+        <p>Phone: <a href="tel:+13433223384">+1 (343) 322-3384</a></p>
+      </section>
+    </section>
+
+    <!-- Call to Action section -->
+    <section id="cta">
+      <h2>Take Action Now!</h2>
+      <p>Sign up for our newsletter to stay updated on the latest developments.</p>
+      <!-- You can add additional elements for different actions -->
+      <button>Sign up</button>
+    </section>
+  </main>
 
 </html>
